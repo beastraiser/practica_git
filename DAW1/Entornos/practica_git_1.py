@@ -8,3 +8,9 @@ def es_par(n):
         return True
     else:
         return False
+
+def es_multiplo(n, nx):
+    if n % nx == 0:
+        return True
+    else:
+        return False
